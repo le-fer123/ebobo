@@ -172,3 +172,17 @@ a:hover, a:focus, a:active {
     background-color: #000000 !important;
     color: #ffffff;
 }
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+    overflow: hidden;
+    filter: brightness(60%);
+}
