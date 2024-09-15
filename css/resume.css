@@ -68,7 +68,15 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
-    color: black;
+    color: white;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+    color: #000000;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link.active {
+    color: white;
 }
 
 @media (min-width: 992px) {
